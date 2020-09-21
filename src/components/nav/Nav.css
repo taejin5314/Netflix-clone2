@@ -1,0 +1,26 @@
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7) 10%, rgba(0, 0, 0, 0));
+    height: 68px;
+    padding: 0 4%;
+    transition: all ease-in 0.4s;
+    z-index: 1000;
+}
+
+.nav__black {
+    background-color: #141414;
+}
+
+.nav__logo {
+    width: 92.5px;
+    object-fit: contain;
+}
+
+.nav__avatar {
+    width: 30px;
+    object-fit: contain;
+}

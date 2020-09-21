@@ -1,0 +1,52 @@
+.row {}
+
+.row>h2 {
+    color: rgb(229, 229, 229);
+    font-size: 1.2rem;
+}
+
+.slider {
+    padding: 0 !important;
+}
+
+.netslider__largeRow {
+    height: 600px;
+}
+
+/* .row__posters {
+      display: flex;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      padding: 20px;
+      height: 150px;
+  }
+
+  .row__posters::-webkit-scrollbar {
+      display: none;
+  }
+
+  .row__postersLarge {
+      height: 550px;
+  }
+
+  .row__poster {
+      object-fit: contain;
+      width: 98%;
+      max-height: 150px;
+      transition: transform 450ms;
+  } */
+
+.row__poster:hover {
+    transform: scale(1.08);
+}
+
+.row__posterLarge {
+    max-height: 600px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.row__posterLarge:hover {
+    transform: scale(1.09);
+}
